@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+/*Typical Device Breackpoints
+
+Pequenas Telas: max 600px
+Celular: min 600px, max 767px
+Tablet: min 768, max1023
+Desktop: min 1024
+Grandes Telas: min 1200px
+
+@media screen and (min-width:768px) {
+    
+}
+
+@media screen and (min-width:768px) {
+    
+}
+
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-padrao);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    color: rgb(255, 255, 255);
+}
+
+:root {
+    --cor0: #3D5A73;
+    --cor1: #2F3D40;
+    --cor2 :#455559;
+    --cor3: #28403D;
+    --cor4: #182625;
+    --cor5: #000b11;
+
+    --fonte-padrao: "Poppins", sans-serif;
+    --fonte-destaque: 'Bebas Neue',
+}
+
+body {
+    background-image: url(../pictures/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    
+
+}
+
+header {
+    
+    border-bottom: 2px solid white;
+
+    padding-top: 20px;
+    
+    height: 50px;
+    
+    
+}
+
+nav {
+    display: inline;
+    font-size: 1em;
+    
+
+
+}
+
+a.nav {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1em;
+    margin: 20px 27px;
+    position: relative;
+
+}
+.nav:hover {
+    border-radius: 5px;
+    text-shadow: none;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 10px;
+    text-align: center;
+}
+
+#logos {
+    background-color: white;
+    
+    margin: auto;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+
+    width: 300px;
+    padding: 20px;
+
+    border-radius: 10px;
+   
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    
+    
+}
+
+#linkinsta {
+    text-decoration: none;
+    
+    padding: 10px;
+}
+
+#linkinsta:hover {
+    background: rgba(0, 0, 0, 0.397);
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    
+}
+
+#js {
+    
+}
+
+#html {
+    
+}
+
+#css {
+
+}
+
+#c {
+    padding-right: 10px;
+}
+
+#py {
+
+}
+
