@@ -48,7 +48,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    width: 100vw;
+    width: 95.9vw; 
+    
     
 
 }
@@ -74,9 +75,8 @@ nav {
 
 a.nav {
     text-decoration: none;
-    padding: 10px;
     font-size: 1em;
-    margin: 20px 27px;
+    margin: 20px 24px;
     position: relative;
 
 }
@@ -96,14 +96,19 @@ h1 {
     
     margin: auto;
     text-align: center;
-    place-items: center;
-    justify-content: center;
+    
 
     width: 300px;
     padding: 20px;
 
     border-radius: 10px;
    
+}
+
+div > p {
+    padding: 10px;
+    color: black;
+    text-shadow: 1px 1px 1px rgb(202, 202, 202);
 }
 
 footer {
@@ -121,30 +126,60 @@ footer {
 }
 
 #linkinsta:hover {
-    background: rgba(0, 0, 0, 0.397);
+    transition: 0.7s ;
+    background: rgba(212, 212, 212, 0.178);
     backdrop-filter: blur (10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
     
 }
 
-#js {
+img {
     
+}
+
+#js {
+    padding-top: 10px;
+    background: rgba(255, 136, 0, 0.397);
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-bottom: 10px;
+
 }
 
 #html {
-    
+    padding-top: 10px;
+    background: rgba(255, 0, 0, 0.397);
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 #css {
-
+    padding-top: 10px;
+    background: rgba(0, 166, 172, 0.397);
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 #c {
-    padding-right: 10px;
+    padding-top: 10px;
+    background: rgba(17, 0, 255, 0.397);
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
-
 #py {
-
+    padding-top: 10px;
+    background: rgba(251, 255, 0, 0.397);
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 

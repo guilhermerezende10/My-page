@@ -50,6 +50,7 @@ body {
 
 }
 
+
 header {
     
     border-bottom: 2px solid white;
@@ -61,13 +62,6 @@ header {
     
 }
 
-#headmain {
-    background-image: url(../pictures/bg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-}
-
 nav {
     display: inline;
     font-size: 1em;
@@ -76,11 +70,18 @@ nav {
 
 }
 
+#headmain {
+    background-image: url(../pictures/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+
 a.nav {
     text-decoration: none;
-    padding: 10px;
     font-size: 1em;
-    margin: 20px 27px;
+    margin: 20px 24px;
     position: relative;
 
 }
@@ -134,7 +135,8 @@ footer {
 }
 
 #linkinsta:hover {
-    background: rgba(0, 0, 0, 0.397);
+    transition: 0.7s ;
+    background: rgba(212, 212, 212, 0.178);
     backdrop-filter: blur (10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;

@@ -48,12 +48,21 @@ Grandes Telas: min 1200px
     padding: 0px;
 }
 
+#headmain {
+    background-image: url(../pictures/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+
 body {
     
     width: 100vw;
     
 
 }
+
 
 header {
     
@@ -66,14 +75,6 @@ header {
     
 }
 
-#headmain {
-    background-image: url(../pictures/bg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    
-}
-
 nav {
     display: inline;
     font-size: 1em;
@@ -82,15 +83,10 @@ nav {
 
 }
 
-nav#container {
-    
-}
-
 a.nav {
     text-decoration: none;
-    padding: 10px;
     font-size: 1em;
-    margin: 20px 29px;
+    margin: 20px 24px;
     position: relative;
 
 }
@@ -112,29 +108,24 @@ a#link {
     
 
     text-align: center;
-    margin: auto;
-    align-items: center;
-    
-    font-size: 2em;
-    border-radius: 5px;
-    padding: 60px;
+    font-size: 1.7em;
+    padding: 60px 60px 20px 60px;
+
+    margin-bottom: 20px;
     
     
 }
 
 p {
+    margin-top: 20px;
     font-size: 1.2em;
     text-align: center;
-}
-
-main {
-    
 }
 
 article {
     display: grid;
     place-items: center;
-    padding-bottom: 40px;
+    
     
 }
 
@@ -169,6 +160,15 @@ section > h2 {
     text-align: center;
 }
 
+#myphoto {
+    display: flex;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.685);
+    margin-bottom: 25px;
+    
+}
+
 footer {
     
     text-align: center;
@@ -190,7 +190,8 @@ footer > a {
 }
 
 #linkinsta:hover {
-    background: rgba(0, 0, 0, 0.397);
+    transition: 0.7s ;
+    background: rgba(212, 212, 212, 0.178);
     backdrop-filter: blur (10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
