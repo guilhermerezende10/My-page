@@ -134,7 +134,14 @@ footer {
     
 }
 
-img {
+a {
+    text-decoration: none;
+}
+
+p {
+    color: black;
+    text-shadow: none;
+    font-size: 1em;
     
 }
 
@@ -145,7 +152,14 @@ img {
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
     margin-bottom: 10px;
+    padding: 10px;
+    color: black;
+    height: 250px;
 
+}
+
+#js:hover {
+    background: rgba(245, 163, 71, 0.397);
 }
 
 #html {
@@ -155,6 +169,10 @@ img {
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+#html:hover {
+    background: rgba(250, 81, 81, 0.397);
 }
 
 #css {
