@@ -1,1 +1,173 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0;400,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --font: "poppins";
+    --color001: #2911B1;
+    --color002: #1336C8;
+    --color003: #6E13C8;
+    --color004: #9A11B1;
+    --color005: #C82C8D;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: absolute;
+    
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+
+    /*My additions --> */
+    
+    padding: 15px;
+    scale: 1.4;
+    cursor: pointer;
+    color: #1336C8;
+
+    position: absolute;
+    top: -5px;
+  }
+
+  .material-icons:hover {
+    transition: 0.5s;
+    scale: 1.55;
+  }
+
+  .material-icons:not(hover) {
+    transition: 0.5s;
+  
+  }
+
+#menu {  
+    max-width: 350px;
+    border-radius: 10px;
+    height: 100%;
+    color: black;
+    display: none;
+    background-color: rgb(223, 223, 223);
+    font-family: var(--font);
+    
+}
+
+#menu > a {
+    
+    width: 50vw;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    
+}
+
+#menu > a:hover {
+    background-color: lightgray;
+}
+
+h1 {
+    font-weight: 400;
+    font-family: var(--font);
+    text-align: right;
+    font-size: 1em;
+
+    margin: 15px;
+}
+
+#itsMe {
+    border-radius: 10px;
+    
+}
+
+section {
+    margin-bottom: 30px;
+    
+}
+
+
+article {
+    display: grid;
+    place-items: center;
+    margin: auto;
+
+    font-family: var(--font);
+    font-weight: 300;
+    color: white;
+    background: linear-gradient(var(--color001), var(--color003));
+
+    border-radius: 10px;
+    padding: 30px;
+
+    width: 325px;
+    height: 500px;
+    
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.541);
+}
+
+#title {
+    font-family: var(--font);
+    text-align: center;
+    font-size: 2em;
+
+    margin: 15px;
+    padding: 10px;
+}
+
+
+footer > a {
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.541);
+
+    padding: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    background: linear-gradient(var(--color004), var(--color002));
+    width: 355px;
+    color: white;
+    text-decoration: none;
+    font-family: var(--font);
+}
+
+footer > a:hover {
+    transition: 0.75s;
+    scale: 1.05;
+    border: 2px solid white;
+}
+
+footer > a:not(hover) {
+    transition: 0.5s;
+    
+}
+
