@@ -178,7 +178,8 @@ footer > a:not(hover) {
     height: 40px;
 
     background: linear-gradient(var(--color003), var(--color002));
-    width: 355px;
+    width: 60vw;
+    max-width: 400px;
     color: white;
     text-decoration: none;
     font-family: var(--font);
@@ -201,7 +202,8 @@ footer > a:not(hover) {
     height: 40px;
 
     background: linear-gradient(var(--color001), var(--color002));
-    width: 355px;
+    width: 60vw;
+    max-width: 400px;
     color: white;
     text-decoration: none;
     font-family: var(--font);
