@@ -153,6 +153,90 @@ h1 {
     text-shadow: 2px 2px rgba(184, 184, 184, 0.541);
 }
 
+#Projects {
+    font-family: var(--font);
+    color: #021666;
+    text-align: center;
+    font-size: 1.3em;
+
+    padding: 10px;
+
+    text-shadow: 2px 2px rgba(184, 184, 184, 0.541);
+    
+}
+
+#Projects a {
+    color: #021666;
+    height: 200px;
+    width: 300px;
+    text-decoration: none;
+}
+
+
+.mathtech {
+    display: grid;
+    margin: auto;
+
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.541);
+
+    height: 350px;
+    width: 300px;
+}
+
+.mathtech a {
+    color: #021666;
+    
+}
+
+.mathtech:hover {
+    transition: 0.6s;
+    scale: 1.02;
+    border: 1px solid lightgray ;
+
+}
+
+.mathtech:not(hover) {
+    transition: 0.6s;
+    
+
+}
+
+#mathtech-bg {
+    background: url(../pictures/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+
+    height: 200px;
+    width: 300px;
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.praias {
+
+}
+
+.loginPage {
+    
+}
+.cordelPage {
+
+}
+
+.myProjects h2 {
+    font-family: var(--font);
+    text-align: center;
+    font-size: 1em;
+
+    margin: 10px;
+    padding: 10px;
+
+    text-shadow: 2px 2px rgba(184, 184, 184, 0.541);
+}
 
 footer > a:hover {
     transition: 0.75s;
