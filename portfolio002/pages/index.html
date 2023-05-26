@@ -12,27 +12,24 @@
     
 </head>
 <body>
-    <span class="material-icons" onclick="clickMenu()">menu</span>
-                <div id="menu">
-                    <a href="index.html">Home</a>
-                    <a href="#Projects">Projects</a>
-                    <a href="#"> About Me</a>
-                    <a href="#">Contact me</a>
-                </div>       
-         <main>
-        <section>
-                <h1 id="title">Hi there, I'm Guilherme</h1>
-            <article class="biografia">
-                <img src="../pictures/me-mobile.jpg" alt="My photo" id="itsMe">
-                <p>I'm a fifteen-year-old high school student with a deep passion for programming. My greatest aspiration is to work outside of Brazil. To achieve this goal, I devote time every day to studying English and French. My hope is that one day I will have the opportunity to live in a favorable location and pursue a career in the field I have always loved.</p>
-            </article>
-        </section> 
-        <section>
+    <header>
+        <span class="material-icons" onclick="clickMenu()">menu</span>
+        <h1>Guilherme</h1>
+                    <div id="menu">
+                        <a href="index.html">Home</a>
+                        <a href="#todosProjetos">Projects</a>
+                        <a href="#"> About Me</a>
+                        <a href="#contactme">Contact me</a>
+                    </div>
+             <main>
+        
+    </header>
+        <section id="todosProjetos">
             <h1>Guilherme's projects</h1>
             <article id="Projects">
             
                 <div class="mathtech">
-                    <a href="https://guilhermerezende10.github.io/MathTech-project/url/index.html" target="_blank" rel="external" id="projects-link">
+                    <a href="https://guilhermerezende10.github.io/MathTech-project/url/index.html" target="_blank" rel="external">
                         <div id="mathtech-bg"></div>
                         <h2>MathTech</h2>
                     </a>   
@@ -40,18 +37,37 @@
 
             
                 <div class="praias">
-                    <a href="" target="_blank" rel="external" id="projects-link">
+                    <a href="https://guilhermerezende10.github.io/Projeto-baixadaSantista/pages/index.html" target="_blank" rel="external">
                         <div id="praias-bg"></div>
-                        <h2>Baixada Santista</h2>
+                        <h2>Baixada <br> Santista</h2>
                     </a>
                 </div>
-                <div class="loginPage"><h2>Login Page</h2></div>
-                <div class="CordelPage"><h2>Cordel Page</h2></div>
+                <div class="loginPage">
+                    <a href="https://guilhermerezende10.github.io/projeto-login/" target="_blank" rel="external">
+                        <div id="login-bg"></div>
+                        <h2>Login Page</h2>
+                        
+                    </a>
+                </div>
+                <div class="cordelPage">
+                    <a href="">
+                        <div id="cordel-bg"></div>
+                        <h2>Cordel Page</h2>
+                        
+                    </a>
+                </div>
             </article>
         </section>
-
+        <section>
+            <h1 id="title">Hi there, I'm Guilherme</h1>
+        <article class="biografia">
+            <img src="../pictures/me-mobile.jpg" alt="My photo" id="itsMe">
+            <p>I'm a fifteen-year-old high school student with a deep passion for programming. My greatest aspiration is to work outside of Brazil. To achieve this goal, I devote time every day to studying English and French. My hope is that one day I will have the opportunity to live in a favorable location and pursue a career in the field I have always loved.</p>
+        </article>
+    </section> 
     </main>
     <footer>
+        <h1 id="contactme">My Social Medias</h1>
         <a href="https://github.com/guilhermerezende10" target="_blank" rel="external" class="github"> <img src="../pictures/github-white.png" alt="github logo" style="margin-right: 15px;">My GitHub</a>
         <a href="https://www.instagram.com/guilhermerezende.10/" target="_blank" rel="external" style="margin-top: 25px;" class="instagram"> <img src="https://www.delas.pt/files/2018/03/logo-instagram.png" alt="github logo" style="margin-right: 15px;">My Instagram</a>
     </footer>
