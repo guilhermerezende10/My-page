@@ -21,7 +21,7 @@ header {
     position: sticky;
     top: 0;
     background-color: white;
-    height: 85px;
+    height: 70px;
 }
 
 .material-icons {
@@ -57,7 +57,7 @@ header {
     margin: 25px 8px;
 
     position: absolute;
-    top: -10px;
+    top: -20px;
     left: 15px;
   }
 
@@ -78,13 +78,15 @@ header {
     top: 65px;
     color: black;
     display: none;
-    background-color: rgb(223, 223, 223);
+    border: 1px solid lightgray;
+    background: linear-gradient(to top, lightgray, white);
+    
     font-family: var(--font);
     
 }
 
 #menu > a {
-    width: 90vw;
+    width: 60vw;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -94,7 +96,8 @@ header {
 }
 
 #menu > a:hover {
-    background-color: lightgray;
+    background-color: rgb(209, 209, 209);
+    border-radius: 0px 10px 10px 0px;
 }
 
 #itsMe {
@@ -107,6 +110,18 @@ header {
 section {
     margin:  20px 0px;
     
+}
+
+#home {
+    padding: 15px;
+    background-color: rgb(233, 231, 231);
+}
+
+#home img {
+    max-width: 350px;
+    display: grid;
+    margin: auto;
+    justify-content: center;
 }
 
 
@@ -138,11 +153,9 @@ section {
     font-family: var(--font);
     text-align: center;
     font-size: 2em;
+    color: #1336C8;
 
-    margin: 35px 15px 5px 15px;
-    padding: 10px;
-
-    text-shadow: 2px 2px rgba(184, 184, 184, 0.541);
+    text-shadow: 4px 3px rgba(211, 211, 211, 0.678);
 }
 
 h1 {
@@ -156,9 +169,6 @@ h1 {
     text-shadow: 2px 2px rgba(184, 184, 184, 0.541);
 }
 
-#todosProjetos {
-    background-color: rgb(233, 231, 231);
-}
 
 #Projects {
     font-family: var(--font);
@@ -177,6 +187,8 @@ h1 {
     height: 200px;
     width: 300px;
     text-decoration: none;
+   
+
 }
 
 
@@ -211,7 +223,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center ;
 
-    height: 200px;
+    height: 285px;
     width: 300px;
 
     border-radius: 10px 10px 0px 0px;
@@ -231,7 +243,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center ;
 
-    height: 200px;
+    height: 245px;
     width: 300px;
 
     border-radius: 10px 10px 0px 0px;
@@ -249,7 +261,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center ;
 
-    height: 200px;
+    height: 285px;
     width: 300px;
 
     border-radius: 10px 10px 0px 0px;
@@ -267,25 +279,16 @@ h1 {
     background-repeat: no-repeat;
     background-position: center ;
 
-    height: 200px;
+    height: 285px;
     width: 300px;
 
     border-radius: 10px 10px 0px 0px;
 
 }
 
-.myProjects h2 {
-    font-family: var(--font);
-    text-align: center;
-    font-size: 1em;
-
-    margin: 10px;
-    padding: 10px;
-
-    text-shadow: 2px 2px rgba(184, 184, 184, 0.541);
-}
-
-footer {
+#aboutme {
+    padding-top: 1px;
+    padding-bottom: 30px;
     background-color: rgb(233, 231, 231);
 }
 
