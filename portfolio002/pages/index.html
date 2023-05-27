@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guilherme Rezende</title>
     <link rel="stylesheet" href="../styles/mobile.css">
+    <link rel="stylesheet" href="../styles/media-query.css">
     <script src="../scripts/main.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <span class="material-icons" onclick="clickMenu()">menu</span>
         <h1 id="title">Guilherme</h1>
                     <div id="menu">
-                        <a href="#home" onclick="clickMenu()">Home</a>
-                        <a href="#" onclick="clickMenu()">Technologies</a>
-                        <a href="#todosProjetos" onclick="clickMenu()">Projects</a>
-                        <a href="#aboutme" onclick="clickMenu()"> About Me</a>
-                        <a href="#contactme" onclick="clickMenu()">Contact me</a>
+                        <a href="#home">Home</a>
+                        <a href="#">Technologies</a>
+                        <a href="#todosProjetos"">Projects</a>
+                        <a href="#aboutme">About Me</a>
+                        <a href="#contactme">Contact me</a>
                     </div>
              <main>
         
@@ -28,7 +29,7 @@
         <section id="home">
             <article>
                 <h1>Hello there! Welcome!</h1>
-                <img src="https://www.sardonyx.in/themes/images/software-development/sardonyx-softwaredevelopment001.gif" alt="gif programando">
+                <img src="../pictures/programando.gif" alt="gif programando" id="gifHome">
             </article>
         </section>
 
@@ -70,7 +71,7 @@
         <section id="aboutme-text">
             <h1>Hi there, I'm Guilherme</h1>
         <article class="biografia">
-            <img src="../pictures/me-mobile.jpg" alt="My photo" id="itsMe">
+            <img src="../pictures/me-option2.png" alt="My photo" id="itsMe">
             <p>I'm a fifteen-year-old high school student with a deep passion for programming. My greatest aspiration is to work outside of Brazil. To achieve this goal, I devote time every day to studying English and French. My hope is that one day I will have the opportunity to live in a favorable location and pursue a career in the field I have always loved.</p>
         </article>
     </section> 

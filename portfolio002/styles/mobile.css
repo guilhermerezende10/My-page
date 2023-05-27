@@ -17,12 +17,17 @@
     padding: 0px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     position: sticky;
     top: 0;
     background-color: white;
     height: 70px;
 }
+
 
 .material-icons {
     font-family: 'Material Icons';
@@ -87,17 +92,13 @@ header {
 
 #menu > a {
     width: 60vw;
+    
     padding: 10px;
     text-align: center;
     text-decoration: none;
     color: black;
     border-radius: 10px;
     
-}
-
-#menu > a:hover {
-    background-color: rgb(209, 209, 209);
-    border-radius: 0px 10px 10px 0px;
 }
 
 #itsMe {
@@ -140,7 +141,7 @@ section {
 
     width: 60vw;
     max-width: 400px;
-    max-height: 600px;
+    
     
     box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.541);
 }
@@ -184,6 +185,7 @@ h1 {
 
 #Projects a {
     color: #021666;
+    text-align: center;
     height: 200px;
     width: 300px;
     text-decoration: none;
@@ -193,8 +195,9 @@ h1 {
 
 
 .mathtech, .praias, .loginPage, .cordelPage {
-    display: grid;
+    display: flex;
     margin: auto;
+    justify-content: center;
     margin-bottom: 50px;
     padding: 0px;
     border-radius: 10px;
@@ -204,12 +207,7 @@ h1 {
     width: 300px;
 }
 
-.mathtech:hover, .praias:hover,.loginPage:hover, .cordelPage:hover{
-    transition: 0.6s;
-    scale: 1.02;
-    border: 1px solid lightgray ;
 
-}
 
 .mathtech:not(hover) {
     transition: 0.6s;
@@ -219,13 +217,13 @@ h1 {
 
 #mathtech-bg {
     background: url(../pictures/logo.png);
-    background-size: cover;
+    background-size: contain;
+    background-color: #011126;
     background-repeat: no-repeat;
     background-position: center ;
 
     height: 285px;
     width: 300px;
-
     border-radius: 10px 10px 0px 0px;
 
 }

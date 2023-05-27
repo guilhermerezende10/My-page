@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/*Typical Device Breackpoints
+
+Pequenas Telas: max 600px
+Celular: min 600px, max 767px
+Tablet: min 768, max1023
+Desktop: min 1024
+Grandes Telas: min 1200px
+*/
+
+@media screen and (min-width:768px) {
+    .material-icons{
+        top: -200px;
+        
+    }
+
+    #menu {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        position: relative;
+        top: -10px;
+        border-radius: 0px;
+        
+    }
+    
+    #menu > a:hover {
+        border-radius: 10px;
+        font-weight: 500;
+        scale: 1.06;
+    }
+
+    .mathtech:hover, .praias:hover,.loginPage:hover, .cordelPage:hover{
+        transition: 0.6s;
+        scale: 1.02;
+        border: 1px solid lightgray ;
+    
+    }
+}
+
+@media screen and (min-width:1919px) {
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .mathtech, .praias, .loginPage, .cordelPage {
+        height: 400px;
+        width: 600px;
+    
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    #home {
+        height: 600px;
+        font-size: 1.6em;
+        display: flex;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #mathtech-bg, #praias-bg, #login-bg, #cordel-bg {
+        width: 600px;
+
+    }  
+    #Projects a {
+        width: 600px;
+    } 
+
+    .biografia {
+        width: 600px;
+        max-width: 600px;
+        height: 650px;
+    }
+
+    #itsMe {
+        width: 500px;
+        max-width: 700px;
+        max-height: 450px;
+        
+    }
+
+    .biografia p {
+        width: 600px;
+        font-size: 1.2em;
+    }
+}
+
+
+
